@@ -1,0 +1,350 @@
+<!--
+Protótipo desenvolvido por Adryne Késsia Santos da Silva
+para processo seletivo de estágio.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEGEO</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    
+    <header class="header">
+        <div class="logo">
+            <div class="logo-icon">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+
+            <div>
+                <h2>DEGEO</h2>
+                <p>Departamento de Estatística<br>e Geoprocessamento</p>
+            </div>
+        </div>
+
+        <nav>
+            <a class="active" href="#">INÍCIO</a>
+            <a href="#">SOBRE O DEGEO</a>
+            <a href="#">INDICADORES</a>
+            <a href="#">MAPAS</a>
+            <a href="#">ESTUDOS</a>
+            <a href="#">CONTATO</a>
+        </nav>
+
+        <button class="btn-header">
+            <i class="fa-solid fa-database"></i>
+            ACESSO AOS DADOS
+        </button>
+    </header>
+
+
+    <section class="hero">
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+
+            <div class="hero-left">
+                <h1>
+                    Dados georreferenciados
+                    que impulsionam
+                    decisões públicas
+                </h1>
+
+                <p>
+                    Informações estatísticas, econômicas, sociais e territoriais
+                    para compreender o Amazonas em tempo real.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button class="btn-green">
+                        <i class="fa-solid fa-database"></i>
+                        EXPLORAR DADOS
+                    </button>
+
+                    <button class="btn-outline">
+                        <i class="fa-solid fa-location-dot"></i>
+                        VER MAPAS
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CARDS -->
+    <section class="stats">
+
+        <div class="card">
+            <div class="icon green">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+
+            <div>
+                <h2>62</h2>
+                <p>Municípios monitorados</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="icon blue">
+                <i class="fa-solid fa-chart-column"></i>
+            </div>
+
+            <div>
+                <h2>150+</h2>
+                <p>Indicadores disponíveis</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="icon orange">
+                <i class="fa-solid fa-layer-group"></i>
+            </div>
+
+            <div>
+                <h2>500+</h2>
+                <p>Mapeamentos realizados</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="icon lightgreen">
+                <i class="fa-solid fa-chart-line"></i>
+            </div>
+
+            <div>
+                <h2>20+</h2>
+                <p>Projetos ativos</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- MAPA -->
+    <section class="explore">
+
+        <div class="explore-left">
+
+            <h2>EXPLORE O AMAZONAS</h2>
+
+            <p>
+                Navegue pelo mapa e conheça indicadores
+                socioeconômicos, ambientais e territoriais
+                dos municípios do Amazonas.
+            </p>
+
+            <ul>
+                <li><i class="fa-solid fa-users"></i> População</li>
+                <li><i class="fa-solid fa-building-columns"></i> Economia</li>
+                <li><i class="fa-solid fa-graduation-cap"></i> Educação</li>
+                <li><i class="fa-solid fa-heart-pulse"></i> Saúde</li>
+                <li><i class="fa-solid fa-leaf"></i> Meio Ambiente</li>
+            </ul>
+
+        </div>
+
+        <div class="explore-center">
+
+            <img src="https://raw.githubusercontent.com/Adrynekessia/imagens/refs/heads/main/image%20(1).png" alt="Mapa">
+
+        </div>
+
+        <div class="explore-card">
+
+            <h3>Manaus</h3>
+
+            <div class="info">
+                <p>População</p>
+                <strong>2.255.903</strong>
+            </div>
+
+            <div class="info">
+                <p>PIB per capita</p>
+                <strong>R$ 36.594,00</strong>
+            </div>
+
+            <div class="info">
+                <p>IDH</p>
+                <strong>0,737</strong>
+            </div>
+
+            <div class="info">
+                <p>Área (km²)</p>
+                <strong>11.401,092</strong>
+            </div>
+
+            <button>VER INDICADORES COMPLETOS</button>
+
+        </div>
+
+    </section>
+
+    <!-- ÁREAS -->
+    <section class="areas">
+
+        <h2>NOSSAS ÁREAS DE ATUAÇÃO</h2>
+
+        <div class="areas-grid">
+
+            <div class="area-card">
+                <i class="fa-solid fa-crosshairs"></i>
+                <h3>Georreferenciamento</h3>
+                <p>Coleta e tratamento de dados geográficos com precisão.</p>
+            </div>
+
+            <div class="area-card">
+                <i class="fa-regular fa-map"></i>
+                <h3>Mapeamento</h3>
+                <p>Produção de mapas temáticos e análises territoriais.</p>
+            </div>
+
+            <div class="area-card">
+                <i class="fa-solid fa-chart-pie"></i>
+                <h3>Estatística</h3>
+                <p>Levantamento, sistematização e análise de dados.</p>
+            </div>
+
+            <div class="area-card">
+                <i class="fa-solid fa-desktop"></i>
+                <h3>Geoprocessamento</h3>
+                <p>Tecnologias aplicadas ao processamento de dados espaciais.</p>
+            </div>
+
+            <div class="area-card">
+                <i class="fa-solid fa-arrow-trend-up"></i>
+                <h3>Indicadores socioeconômicos</h3>
+                <p>Informações para suporte à gestão pública e pesquisas.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROCESSO -->
+    <section class="processo">
+
+        <div class="importancia">
+            <h2>POR QUE ISSO IMPORTA?</h2>
+
+            <p>
+                Dados bem organizados ajudam governos,
+                pesquisadores e cidadãos a compreender
+                os desafios sociais, econômicos e ambientais
+                do Amazonas.
+            </p>
+        </div>
+
+        <div class="process-content">
+
+            <h2>NOSSO PROCESSO</h2>
+
+            <div class="steps">
+
+                <div class="step">
+                    <div class="circle green">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3>COLETA</h3>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="step">
+                    <div class="circle blue">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <h3>PROCESSAMENTO</h3>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="step">
+                    <div class="circle orange">
+                        <i class="fa-solid fa-chart-column"></i>
+                    </div>
+                    <h3>ANÁLISE</h3>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="step">
+                    <div class="circle lightgreen">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <h3>DECISÃO</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-grid">
+
+            <div>
+                <h2>DEGEO</h2>
+                
+                <p>
+                    Gerando informações e conhecimento
+                    para o desenvolvimento sustentável
+                    do Amazonas.
+                </p>
+            </div>
+
+            <div>
+                <h3>LINKS RÁPIDOS</h3>
+
+                <ul>
+                    <li>Sobre o DEGEO</li>
+                    <li>Indicadores</li>
+                    <li>Mapas Interativos</li>
+                    <li>Estudos e Relatórios</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>CONTATO</h3>
+
+                <p>degeo@sedecti.am.gov.br</p>
+                <p>(92) 1234-5678</p>
+                <p>Manaus - AM</p>
+            </div>
+
+            <div>
+                <h3>SIGA-NOS</h3>
+
+                <div class="socials">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="copy">
+            © 2026 DEGEO - Departamento de Estatística e Geoprocessamento do Amazonas.
+        </div>
+
+    </footer>
+
+</body>
+</html>
